@@ -32,11 +32,11 @@ int PowerIterativ(int NumberToPow, int Power)
 		NumberToPow = NumberToPow*NumberToPow;
 		if (Power % 2 == 1)
 		{
-			Power = Power - 1;
+			Power = Power - 1;///
 			PowerOdd = PowerOdd*Original_Number;
 		}
 
-		Power = Power / 2;
+		Power = Power / 2; // hi
 	}
 	return NumberToPow*PowerOdd;
 }
